@@ -18,7 +18,7 @@ This project demonstrates a complete CI/CD pipeline setup for a microservices-ba
 
 - AWS EKS as the Kubernetes cluster provider
 
-- GitLab Docker Registry for storing Docker images
+- DockerHub Registry for storing Docker images
 
 
 ## Services in the Application
@@ -49,7 +49,7 @@ Builds Docker images (without SHA tag) for all services using docker:dind. Trigg
 
 2. Push
 
-Builds Docker images tagged with commit SHA and pushes them to the GitLab Container Registry. Runs only on the main branch.
+Builds Docker images tagged with commit SHA and pushes them to the DockerHub Container Registry. Runs only on the main branch.
 
 3. Deliver
 
