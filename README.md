@@ -79,7 +79,7 @@ Kubernetes Namespaces
 
 
 ✔️ Pods & Services after a deliver:
-![pods and services](assets/Pods & Services.png)
+![podsandservices](assets/pods_services.png)
 
 Outputs:
 
